@@ -1,5 +1,5 @@
 <template>
-    <main class="flex flex-col w-auto h-screen px-4 py-32 divide-y-4 md:px-0 md:divide-y-0 md:divide-x-4 md:flex-row divide-primary/25 min-w-[320px]">
+    <main class="flex flex-col w-auto md:h-screen px-4 py-32 divide-y-4 md:px-0 md:divide-y-0 md:divide-x-4 md:flex-row divide-primary/25 min-w-[320px]">
         <aside class="flex items-center justify-center w-auto px-12 pb-24 mx-auto md:w-1/2 md:mx-0 md:pb-0">
             <img src="@/assets/SubatmcLogo.svg" alt="" class="animate-pulse" />
         </aside>
