@@ -16,11 +16,11 @@ const showDt = false
 
 <template>
   <div>
-    <h3 class="text-xl pb-2">{{ title }}</h3>
+    <h3 class="pb-2 text-xl">{{ title }}</h3>
     <ul class="text-sm">
       <li v-for="(detail, index) in details" :key="detail.dt" class="inline">
         <span v-show="showDt" class="inline mr-1">{{ detail.dt }}</span>
-        <span class="font-bold inline italic">{{ detail.dd }}</span>
+        <span class="inline italic font-bold">{{ detail.dd }}</span>
         <span v-if="index !== details.length - 1" class="text-gray-300"> / </span>
       </li>
     </ul>
@@ -28,9 +28,9 @@ const showDt = false
       <slot />
     </p>
 
-    <section class="space-x-4 mt-4">
+    <section class="flex flex-col mt-4 space-y-4 md:flex-row md:space-y-0 md:space-x-4">
       <PrimaryButton v-for="{ text, to } in actions" :key="to"
-        class="bg-black text-white px-4 py-2 hover:bg-red-700 duration-100" v-bind="{ text, to }" />
+        class="px-4 py-2 text-white duration-100 bg-black hover:bg-red-700" v-bind="{ text, to }" />
     </section>
   </div>
 </template>
