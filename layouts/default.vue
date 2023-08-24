@@ -12,7 +12,7 @@ console.log({navigation})
             <img 
               src="~/assets/SubatmcLogo/BlackCircleBackground.svg" 
               class="h-[50px] md:h-[100px] hover:animate-pulse"
-              alt="subatmc emblem" 
+              alt="subatmc logo / emblem" 
             />
           </NuxtLink>
       </div>
