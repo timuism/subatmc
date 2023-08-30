@@ -19,13 +19,13 @@ const showDt = false
   <div class="mb-24">
     <h3 class="pb-2 text-2xl">{{ title }}</h3>
     <ul class="text-sm">
-      <li v-for="(detail, index) in details" :key="detail.dt" class="inline">
+      <li v-for="(detail, index) in details" :key="detail.dt" class="inline font-mono text-green-800">
         <span v-show="showDt" class="inline mr-1">{{ detail.dt }}</span>
-        <span class="inline italic font-bold">{{ detail.dd }}</span>
-        <span v-if="index !== details.length - 1" class="text-gray-300"> / </span>
+        <span class="inline">{{ detail.dd }}</span>
+        <span v-if="index !== details.length - 1" class="text-gray-200"> / </span>
       </li>
     </ul>
-    <p class="mt-2">
+    <p class="mt-2 text-gray-500">
       <slot />
     </p>
 

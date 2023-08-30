@@ -10,7 +10,7 @@ withDefaults(defineProps<{
   <a
     :href="to"
     :target="newWindow ? '_new' : '_self'"
-    class="px-4 py-2 text-white duration-500 bg-gray-800 hover:bg-blue-400"
+    class="px-4 py-2 text-white duration-500 bg-gray-800 outline-none hover:bg-green-800 ring-transparent ring-4 focus:ring-green-700"
   >
     {{ text }}
   </a>

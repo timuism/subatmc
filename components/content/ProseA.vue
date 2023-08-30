@@ -16,7 +16,7 @@ defineProps({
   <NuxtLink 
     :href="href" 
     :target="target" 
-    class="pb-0.5 duration-100 border-b border-gray-400 hover:text-blue-400 hover:border-blue-400"
+    class="pb-0.5 duration-100 border-b border-gray-400 hover:text-green-800 hover:border-green-800 focus:text-green-800 focus:border-green-800 outline-none"
   >
     <slot />
   </NuxtLink>

@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'body': ["'Courier Prime'", "sans-serif"],
+      'mono': ["'DM Mono'", 'monaco']
     },
     extend: {},
   },
