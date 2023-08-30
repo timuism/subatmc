@@ -1,6 +1,5 @@
 <script setup lang="ts">
-const { navigation } = useContent()
-console.log({navigation})
+const { navigation, page } = useContent()
 </script>
 
 <template>
@@ -25,6 +24,10 @@ console.log({navigation})
     </header>
 
     <section class="px-6 py-12 content grow">
+      <header class="mb-12 text-gray-400">
+        <h2>{{ page.displayTitle ?? page.title }}</h2>
+      </header>
+
       <slot />
     </section>
 
@@ -36,10 +39,6 @@ console.log({navigation})
 </template>
 
 <style>
-h1 {
-  @apply mb-12 text-gray-400;
-}
-
 .content p + p {
   @apply pt-6;
 }

@@ -1,14 +1,16 @@
 <script setup lang="ts">
-defineProps<{
+withDefaults(defineProps<{
   text: string
   to: string
-}>()
+  newWindow?: boolean
+}>(), {newWindow: false})
 </script>
 
 <template>
   <a
     :href="to"
-    class="px-4 py-2 text-white duration-100 bg-gray-800 hover:bg-blue-400"
+    :target="newWindow ? '_new' : '_self'"
+    class="px-4 py-2 text-white duration-500 bg-gray-800 hover:bg-blue-400"
   >
     {{ text }}
   </a>
