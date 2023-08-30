@@ -1,5 +1,9 @@
 <script setup lang="ts">
-const { navigation, page } = useContent()
+const { page } = useContent()
+
+useHead({
+  titleTemplate: '%s | subatmc | tim long',
+})
 </script>
 
 <template>
@@ -7,20 +11,22 @@ const { navigation, page } = useContent()
 
     <header>
       <div class="flex items-center justify-center w-full p-6">
-          <NuxtLink to="/" class="p-2 rounded-full outline-none hover:animate-pulse focus:bg-green-700 focus:animate-pulse">
-            <img 
+        <NuxtLink to="/" class="p-2 rounded-full outline-none hover:animate-pulse focus:bg-green-700 focus:animate-pulse">
+          <img 
               src="~/assets/SubatmcLogo/BlackCircleBackground.svg" 
               class="h-[50px] md:h-[100px]"
               alt="subatmc logo / emblem" 
             />
           </NuxtLink>
-      </div>
+        </div>
 
-      <div class="flex justify-center pb-4 space-x-6 border-b border-gray-200">
-        <NuxtLink v-for="{title, _path} in navigation" :key="_path" :to="_path" class="p-2 duration-100 rounded-sm outline-none hover:underline hover:text-green-800 focus:bg-green-700 focus:text-white">
-          {{ title }}
-        </NuxtLink>
-      </div>
+      <nav class="flex justify-center pb-4 space-x-6 border-b border-gray-200">
+        <ContentNavigation v-slot="{ navigation}">
+          <NuxtLink v-for="{title, _path} in navigation" :key="_path" :to="_path" class="p-2 duration-100 rounded-sm outline-none hover:underline hover:text-green-800 focus:bg-green-700 focus:text-white">
+            {{ title }}
+          </NuxtLink>
+        </ContentNavigation>
+      </nav>
     </header>
 
     <section class="px-6 py-12 content grow">
