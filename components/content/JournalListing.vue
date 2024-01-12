@@ -5,7 +5,8 @@
 <template>
   <div>
     <ul class="space-y-12">
-      <ContentList path="/_posts" v-slot="{ list }">
+      <ContentList path="/_posts">
+        <template #default="{list}">
         <li v-for="article in list" :key="article._path">
           <NuxtLink :to="article._path" class="group">
             <h2 class="text-lg text-gray-700 duration-100 group-hover:text-blue-400">
@@ -17,6 +18,10 @@
             </p>
           </NuxtLink>
         </li>
+      </template>
+      <template #not-found>
+        <p>nothing here yet</p>
+      </template>
       </ContentList>
     </ul>
   </div>
