@@ -14,6 +14,8 @@ defineProps<{
 
     <section>
 
+      <p>  
+      </p>
     </section>
 
     <footer v-if="$slots.footer">

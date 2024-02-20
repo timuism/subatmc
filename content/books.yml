@@ -1,0 +1,43 @@
+navigation: false
+books:
+  - title: 'Wretched of the Earth'
+    author: 'Frantz Fanon'
+    status: complete
+
+  - title: "1493"
+    author: "Charles Mann"
+    status: complete
+
+  - title: "The Four Agreements"
+    author: "Don Miguel Ruiz"
+    status: complete
+
+  - title: "The People's History of the United States"
+    author: "Howard Zinn"
+    status: now-reading
+
+  - title: "The Autobiography of Malcolm X"
+    author: "As told to Alex Haley"
+    status: now-reading
+
+  - title: "Black Marxism"
+    author: "Cedric Robinson"
+    status: now-reading
+
+  - title: "Black Scare / Red Scare"
+    author: "Charisse Burden-Stelly"
+    status: up-next
+
+  - title: "Parable of the Sower"
+    author: "Octavia Butler"
+    status: 
+
+  - title: "Parable of the Talents"
+    author: "Octavia Butler"
+    status:
+
+  - title: "Revolutionary Suicide"
+    author: "Huey P. Newton"
+
+  - title: "Invisible Man"
+    author: Ralph Ellison
