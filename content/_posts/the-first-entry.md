@@ -8,4 +8,5 @@ date: 02-23-2024
 I'm not entirely sure how this journal will go. I just know that for someone that enjoys writing, I do not do a lot of it. I hope to change that.
 
 
-- subatmc
+::sig
+::
