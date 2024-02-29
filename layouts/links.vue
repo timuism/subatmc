@@ -6,7 +6,6 @@ useHead({
 
 <template>
   <div class="flex flex-col max-w-screen-sm min-h-screen mx-auto text-gray-800 font-body">
-
     <header>
       <div class="flex items-center justify-center w-full p-6">
         <NuxtLink to="/" class="p-2 rounded-full outline-none hover:animate-pulse focus:bg-green-700 focus:animate-pulse">
