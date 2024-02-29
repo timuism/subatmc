@@ -4,7 +4,12 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/google-fonts',
     '@nuxtjs/tailwindcss',
+    'nuxt-simple-robots',
   ],
+  robots: {
+    UserAgent: '*',
+    Disallow: '/reading-list/'
+  },
   content: {
     documentDriven: true
   },
