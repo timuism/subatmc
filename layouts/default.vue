@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const { page } = useContent()
-
+console.log({page})
 useHead({
   titleTemplate: '%s | subatmc | tim long',
 })
@@ -36,11 +36,7 @@ useHead({
 
       <slot />
     </section>
-
-    <footer class="px-6 py-4 text-gray-400 border-t border-gray-200">
-      <p>&copy; {{ new Date().getFullYear() }} subatmc</p>
-      <p class="text-xs">made with 🧡 by <a href="https://timuism.net" class="underline outline-none hover:text-green-800 focus:text-green-800">timuism</a></p>
-    </footer>
+    <Footer />
   </div>
 </template>
 

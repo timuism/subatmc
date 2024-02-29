@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full">
+  <div class="w-full mb-24">
 
     <h3 class="mt-12 font-display">Listen to earth house</h3> 
     <div class="w-full mt-4">
