@@ -22,7 +22,7 @@ useHead({
 
       <nav class="flex justify-center pb-4 space-x-6 border-b border-gray-200">
         <ContentNavigation v-slot="{ navigation}">
-          <NuxtLink v-for="{title, _path} in navigation" :key="_path" :to="_path" class="p-2 duration-100 rounded-sm outline-none hover:underline hover:text-green-800 focus:bg-green-700 focus:text-white">
+          <NuxtLink v-for="{title, _path} in navigation" :key="_path" :to="_path" class="p-2 duration-100 rounded-sm outline-none font-display hover:underline hover:text-green-800 focus:bg-green-700 focus:text-white">
             {{ title }}
           </NuxtLink>
         </ContentNavigation>
@@ -31,7 +31,7 @@ useHead({
 
     <section class="px-6 py-12 content grow">
       <header class="mb-12 text-gray-400">
-        <h2>{{ page.displayTitle ?? page.title }}</h2>
+        <h2 class="font-display">{{ page.displayTitle ?? page.title }}</h2>
       </header>
 
       <slot />

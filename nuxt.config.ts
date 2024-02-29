@@ -14,6 +14,10 @@ export default defineNuxtConfig({
         wght: [400, 700],
         ital: [400, 700]
       },
+      'DM Sans': {
+        wght: [100, 200, 300, 400, 500, 600, 700],
+        ital: [400, 700]
+      },
       'DM Mono': {
         wght: [400, 700],
         ital: [400, 700]

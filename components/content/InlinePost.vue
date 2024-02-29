@@ -17,7 +17,7 @@ const showDt = false
 
 <template>
   <div class="mb-24">
-    <h3 class="pb-2 text-2xl">{{ title }}</h3>
+    <h3 class="pb-2 text-2xl font-display">{{ title }}</h3>
     <ul class="text-sm">
       <li v-for="(detail, index) in details" :key="detail.dt" class="inline font-mono text-green-800">
         <span v-show="showDt" class="inline mr-1">{{ detail.dt }}</span>

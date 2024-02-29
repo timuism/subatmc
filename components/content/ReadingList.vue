@@ -5,6 +5,9 @@ const books = data.value?.books
 
 <template>
   <div>
+    <div class="mb-12">
+      <AppImage src="/images/bookshelf.webp" alt="bookshelf" class="object-cover" />
+    </div>
     <ol class="space-y-8">
       <li v-for="{ title, author, status } in books" :key="title">
         <div class="font-sans" :class="{ 'line-through text-gray-500': status === 'complete' }">

@@ -1,5 +1,5 @@
 ---
-displayTitle: "Reading List"
+displayTitle: "reading list"
 title: "reading-list"
 navigation: false
 ---
