@@ -1,8 +1,6 @@
 <script setup lang="ts">
-const { page } = useContent()
-
 useHead({
-  titleTemplate: '%s | subatmc | tim long',
+  titleTemplate: 'links | subatmc | tim long',
 })
 </script>
 

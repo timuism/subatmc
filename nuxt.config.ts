@@ -6,10 +6,6 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     'nuxt-simple-robots',
   ],
-  robots: {
-    UserAgent: '*',
-    Disallow: '/reading-list/'
-  },
   content: {
     documentDriven: true
   },
