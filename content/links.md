@@ -4,5 +4,5 @@ navigation: false
 layout: links
 ---
 
-::Links
+::LinksList
 ::
