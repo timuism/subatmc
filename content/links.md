@@ -5,5 +5,5 @@ navigation: false
 layout: links
 ---
 
-::links
+::Links
 ::
