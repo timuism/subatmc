@@ -1,6 +1,6 @@
 ---
-displayTitle: 'links'
-title: 'links'
+displayTitle: "links"
+title: "links"
 navigation: false
 layout: links
 ---
