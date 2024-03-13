@@ -102,6 +102,6 @@ books:
   - title: The Hidden History of Capoeira
     author: Maya Talmon-Chvaicer
 
-    -title: Dune
+  - title: Dune
     author: Frank Herbert
     status: now-reading
