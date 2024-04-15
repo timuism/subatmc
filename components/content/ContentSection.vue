@@ -1,12 +1,12 @@
 <template>
-  <section class="my-12">
-    <header class="mb-6">
-      <slot name="header" />
-    </header>
+    <section>
+        <header v-if="$slots.header" class="mb-6">
+            <slot name="header" />
+        </header>
 
-    <article>
-      <slot />
-    </article>
+        <article>
+            <slot />
+        </article>
 
-  </section>
+    </section>
 </template>

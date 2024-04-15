@@ -11,13 +11,12 @@ export default defineNuxtConfig({
   },
   googleFonts: {
     families: {
-      'Courier Prime': {
-        wght: [400, 700],
-        ital: [400, 700]
+      'Montserrat': {
+        wght: [300, 400, 600, 800],
+        ital: [300, 400, 600, 800]
       },
-      'DM Sans': {
-        wght: [100, 200, 300, 400, 500, 600, 700],
-        ital: [400, 700]
+      'Tac One': {
+        wght: [400],
       },
       'DM Mono': {
         wght: [400, 700],

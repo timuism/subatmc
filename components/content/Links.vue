@@ -1,25 +1,29 @@
 <template>
-  <div class="w-full mb-24">
+    <div class="w-full mb-24">
 
-    <h3 class="mt-12 font-display">Listen to earth house</h3> 
-    <div class="w-full mt-4 overflow-hidden rounded-md">
-      <iframe src="https://www.youtube.com/embed/hHV-ZosG1Cw?si=FbYyimX-uIgTY6C7"
-        class="object-cover w-full aspect-video"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
+        <h3 class="mt-12 font-display">Listen to earth house</h3>
+        <div class="w-full mt-4 overflow-hidden rounded-md">
+            <iframe src="https://www.youtube.com/embed/hHV-ZosG1Cw?si=FbYyimX-uIgTY6C7"
+                class="object-cover w-full aspect-video" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+
+        <h3 class="mt-12 font-display">Links</h3>
+        <ul class="mt-4 overflow-hidden text-2xl border-2 border-green-200 rounded-md shadow-sm font-display md:text-4xl">
+            <li class="p-4 odd:bg-white even:bg-green-50">
+                <NuxtLink to="/_posts/a-call-to-action" class="hover:text-green-600">🇵🇸 Help a Palestinian Family
+                </NuxtLink>
+            </li>
+            <li class="p-4 odd:bg-white even:bg-green-50">
+                <NuxtLink to="/shows" class="hover:text-green-600">🎙️ Upcoming Shows</NuxtLink>
+            </li>
+            <li class="p-4 odd:bg-white even:bg-green-50">
+                <NuxtLink to="/reading-list" class="hover:text-green-600">📚 Reading List</NuxtLink>
+            </li>
+            <li class="p-4 odd:bg-white even:bg-green-50">
+                <NuxtLink to="/" class="hover:text-green-600">⚡️ Subatmc's website</NuxtLink>
+            </li>
+        </ul>
     </div>
-
-    <h3 class="mt-12 font-display">Links</h3>
-    <ul class="mt-4 overflow-hidden text-2xl border-2 border-green-200 rounded-md shadow-sm font-display md:text-4xl">
-      <li class="p-4 odd:bg-white even:bg-green-50">
-        <NuxtLink to="/shows" class="hover:text-green-600">🎙️ Upcoming Shows</NuxtLink>
-      </li>
-      <li class="p-4 odd:bg-white even:bg-green-50">
-        <NuxtLink to="/reading-list" class="hover:text-green-600">📚 Reading List</NuxtLink>
-      </li>
-      <li class="p-4 odd:bg-white even:bg-green-50">
-        <NuxtLink to="/" class="hover:text-green-600">⚡️ Subatmc's website</NuxtLink>
-      </li>
-    </ul>
-</div></template>
+</template>
