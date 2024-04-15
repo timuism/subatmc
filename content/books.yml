@@ -18,7 +18,7 @@ books:
 
   - title: "The Autobiography of Malcolm X"
     author: "As told to Alex Haley"
-    status: now-reading
+    status: complete
 
   - title: "Black Marxism"
     author: "Cedric Robinson"
@@ -30,7 +30,7 @@ books:
 
   - title: "Parable of the Sower"
     author: "Octavia Butler"
-    status: 
+    status:
 
   - title: "Parable of the Talents"
     author: "Octavia Butler"
@@ -42,7 +42,7 @@ books:
   - title: "Invisible Man"
     author: Ralph Ellison
 
-  - title: Blueprint for Black Power 
+  - title: Blueprint for Black Power
     author: Amos N. Wilson
 
   - title: Post Traumatic Slave Syndrome
@@ -50,8 +50,8 @@ books:
 
   - title: Blood In My Eye
     author: George Jackson
-  
-  - title: "X: A Novel" 
+
+  - title: "X: A Novel"
     author: Ilyasah Shabazz
 
   - title: "Assata An Autobiography"
@@ -104,4 +104,8 @@ books:
 
   - title: Dune
     author: Frank Herbert
+    status: now-reading
+
+  - title: The Dawn of Everything
+    author: David Graeber & David Wengrow
     status: now-reading
