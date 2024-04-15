@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const showMobileNav = ref(false)
+const route = useRoute()
 watch(showMobileNav, (val) => {
   if (val) {
     document.body.style.overflow = 'hidden'
@@ -20,7 +21,7 @@ watch(showMobileNav, (val) => {
     </button>
 
     <div :class="showMobileNav ? 'pointer-events-auto opacity-100' : 'pointer-events-none opacity-0'"
-      class="fixed z-10 w-screen h-[100dvh] overflow-hidden bg-white/80 backdrop-blur top-0 left-0 md:hidden duration-500">
+      class="fixed z-[999] w-screen h-[100dvh] overflow-hidden bg-white/80 backdrop-blur top-0 left-0 md:hidden duration-500">
       <div :class="showMobileNav ? 'translate-y-0' : 'translate-y-full'"
         class="absolute bottom-0 left-0 w-full duration-150">
         <div class="fixed bottom-0 right-0 pb-12 pr-6">
@@ -33,7 +34,7 @@ watch(showMobileNav, (val) => {
         </div>
         <nav class="flex flex-col justify-center px-6 py-12 space-y-2 border-t border-gray-200 bg-white/95 md:px-0">
           <ContentNavigation v-slot="{ navigation }">
-            <NuxtLink v-for="{ title, _path } in navigation" :key="_path" :to="_path"
+            <NuxtLink v-for="{ title, _path } in navigation" :key="_path" @click="showMobileNav = false" :to="_path"
               class="p-2 text-3xl text-gray-400 duration-300 rounded-sm outline-none font-display hover:underline hover:text-green-700 focus:bg-green-700 focus:text-white"
               :class="{ 'text-green-700 underline': _path === $route.path }">
               {{ title }}

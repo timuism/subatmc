@@ -7,9 +7,7 @@ useHead({
 
 <template>
   <HelpBanner />
-
   <div class="flex flex-col max-w-screen-sm min-h-screen mx-auto">
-
     <header>
       <div class="z-10 grid grid-cols-1 grid-rows-1">
         <div class="flex items-center justify-center w-full col-start-1 row-start-1 p-6">
@@ -22,7 +20,6 @@ useHead({
           <MobileNav />
         </div>
       </div>
-
 
       <nav class="justify-center hidden px-6 pb-4 space-x-6 border-b border-gray-200 md:flex md:px-0">
         <ContentNavigation v-slot="{ navigation }">
