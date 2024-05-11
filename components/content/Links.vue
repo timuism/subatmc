@@ -5,7 +5,7 @@
     <ul class="mt-4 overflow-hidden text-2xl border-2 border-green-200 rounded-md shadow-sm font-display md:text-4xl">
       <li class="p-4 odd:bg-white even:bg-green-50">
         <a href="https://social.tunecore.com/linkShare?linkid=i83be25oOWDx37keyLjwfw"
-          class="hover:text-green-600">Stream "40 Hours"
+          class="hover:text-green-600">🔊 Stream "40 Hours"
         </a>
       </li>
       <li class="p-4 odd:bg-white even:bg-green-50">
@@ -13,7 +13,7 @@
         </NuxtLink>
       </li>
       <li class="p-4 odd:bg-white even:bg-green-50">
-        <a href="https://subatmc.bandcamp.com/" class="hover:text-green-600">Bandcamp
+        <a href="https://subatmc.bandcamp.com/" class="hover:text-green-600">🎸 Bandcamp
         </a>
       </li>
       <li class="p-4 odd:bg-white even:bg-green-50">
