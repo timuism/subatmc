@@ -6,7 +6,6 @@ useHead({
 </script>
 
 <template>
-  <HelpBanner />
   <div class="flex flex-col max-w-screen-sm min-h-screen mx-auto">
     <header>
       <div class="z-10 grid grid-cols-1 grid-rows-1">

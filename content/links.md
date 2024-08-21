@@ -13,3 +13,6 @@ navigation: false
 
 ::Links
 ::
+
+::JoinMailingList
+::

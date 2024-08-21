@@ -14,7 +14,7 @@ books:
 
   - title: "The People's History of the United States"
     author: "Howard Zinn"
-    status: now-reading
+    status: complete
 
   - title: "The Autobiography of Malcolm X"
     author: "As told to Alex Haley"
@@ -22,7 +22,7 @@ books:
 
   - title: "Black Marxism"
     author: "Cedric Robinson"
-    status: now-reading
+    status: 
 
   - title: "Black Scare / Red Scare"
     author: "Charisse Burden-Stelly"
@@ -71,6 +71,7 @@ books:
 
   - title: How Europe Underdeveloped Africa
     author: Walter Rodney
+    status: now-reading
 
   - title: "Until I Am Free: Fannie Lou Hamer's Enduring Message to America"
     author: Keisha N. Blain
