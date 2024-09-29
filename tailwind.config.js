@@ -3,9 +3,7 @@ module.exports = {
   content: [],
   theme: {
     fontFamily: {
-      'body': ["Montserrat", "sans-serif"],
-      'display': ["'Tac One'", "sans-serif"],
-      'mono': ["'DM Mono'", 'monaco']
+      'body': ["Athiti", "tahoma", "sans-serif"],
     },
     extend: {},
   },

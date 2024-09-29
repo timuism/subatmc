@@ -4,7 +4,7 @@
     :alt="alt"
     :width="width"
     :height="height"
-    class="w-full mx-auto mb-4 border-2 border-gray-200 rounded-sm"
+    class="my-12 max-h-[500px] rounded-sm"
   >
 </template>
 

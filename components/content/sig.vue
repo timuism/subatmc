@@ -1,3 +1,3 @@
 <template>
-  <p class="text-sm italic text-gray-500"> - subatmc</p>
+  <p class="mt-12 text-sm italic text-gray-500"> - subatmc</p>
 </template>

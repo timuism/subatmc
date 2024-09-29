@@ -4,7 +4,7 @@
 
 @layer base {
     body {
-        @apply text-gray-800 font-body font-normal text-base subpixel-antialiased;
+        @apply text-lg subpixel-antialiased font-normal text-gray-100 bg-black font-body;
     }
 
 }

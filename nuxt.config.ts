@@ -11,17 +11,10 @@ export default defineNuxtConfig({
   },
   googleFonts: {
     families: {
-      'Montserrat': {
-        wght: [300, 400, 600, 800],
-        ital: [300, 400, 600, 800]
+      'Athiti': {
+        wght: [200, 300, 400, 500, 600, 700, 800],
+        ital: [200, 300, 400, 500, 600, 700, 800],
       },
-      'Tac One': {
-        wght: [400],
-      },
-      'DM Mono': {
-        wght: [400, 700],
-        ital: [400, 700]
-      }
     }
   },
   devtools: { enabled: true }

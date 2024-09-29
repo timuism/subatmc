@@ -1,3 +1,3 @@
 <template>
-    <hr class="my-4 border-green-400" />
+    <hr class="my-4 border-gray-800" />
 </template>

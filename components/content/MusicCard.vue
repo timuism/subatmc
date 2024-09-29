@@ -10,7 +10,7 @@ defineProps<{
 
 <template>
     <a :href="link" target="_blank"
-        class="cursor-pointer group relative grid grid-cols-1 grid-rows-1 rounded-lg overflow-hidden w-full h-[200px] md:h-full">
+        class="cursor-pointer group relative grid grid-cols-1 grid-rows-1 rounded-sm overflow-hidden w-full h-[200px] md:h-full">
         <div
             class="z-10 flex items-end justify-start w-full col-start-1 row-start-1 text-white duration-500 bg-gradient-to-t from-black/25 to-transparent group-hover:from-black/95">
             <div class="p-6 duration-500 opacity-0 group-hover:opacity-100 group-focus:opacity-100">
