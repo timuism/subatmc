@@ -16,5 +16,8 @@
     "@types/node": "^22.7.4",
     "nuxt": "^3.13.2",
     "nuxt-simple-robots": "^4.0.1"
+  },
+  "dependencies": {
+    "lenis": "^1.1.13"
   }
 }
