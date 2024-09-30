@@ -5,9 +5,14 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxtjs/tailwindcss',
     'nuxt-simple-robots',
+    'nuxt-gtag'
   ],
   content: {
     documentDriven: true
+  },
+  gtag: {
+    enabled: process.env.NODE_ENV === 'production',
+    id: 'G-Q2CPXLEMMZ'
   },
   googleFonts: {
     families: {
