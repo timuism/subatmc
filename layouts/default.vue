@@ -1,6 +1,15 @@
 <script setup lang="ts">
+import Lenis from 'lenis'
 useHead({
   titleTemplate: '%s | subatmc | tim long',
+})
+onMounted(() => {
+  const lenis = new Lenis()
+  function raf(time) {
+    lenis.raf(time)
+    requestAnimationFrame(raf)
+  }
+  requestAnimationFrame(raf)
 })
 </script>
 
@@ -13,9 +22,8 @@ useHead({
     </div>
     <section class="max-w-screen-sm mx-auto">
       <div class="px-8 py-12 md:px-0">
-       <slot />
+        <slot />
       </div>
     </section>
   </div>
-  <Footer />
 </template>
