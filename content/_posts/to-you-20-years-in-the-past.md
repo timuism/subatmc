@@ -15,7 +15,7 @@ description:
 
     Some songs did make it through, and there are a handful of songs I've composed in bands that I've performed with, but there was a lack of satisfaction there. I would often introduce parts of songs or only the music, and then the vocalists would take over and do their own thing. It never crossed my mind that I could actually sing and perform my own songs until very recently.
 
-    I'm not a vocalist. I don't consider myself a singer, but now I am okay with that. So many songs that I've written need me to sing them. The very first time I stepped up to a mic to sing, I was terrified, and I still get anxious when I do. But if I could go into the past and give my younger self a piece of advice, it would be to *sing*. Write words and sing them.
+    I'm not a vocalist and now I am okay with that. So many songs that I've written need me to sing them. The very first time I stepped up to a mic to sing, I was terrified, and I still get anxious when I do. But if I could go into the past and give my younger self a piece of advice, it would be to *sing*. Write words and sing them.
 
     I wrote my first single, [Earth House](https://open.spotify.com/track/6pA0kCpV5lUdCsXiV3GwKj?si=d7364891744a4eb1), around 2018. The first time I performed it was in 2021. I didn't release it for another year! While there is no rush with these things, I have to admit the fear really held me back for such a long time. And now that I’m getting over those fears, I'm growing and learning more than I ever have.
 
