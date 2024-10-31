@@ -26,6 +26,7 @@ This was one of the sparks that led me down a road of what I call my “politica
 I’ve been going through a revolution in my head for a long time, and since that trip in 2022, it has been in high gear, full speed. I’ve changed so much over these last two years, and I love who I am. At the same time, I feel disconnected from friends, family, and loved ones. Spiritual growth tends to do that.
 
 As I continue to learn, I want to begin to share. I’ve been in a state of overflowing creativity and have been writing music, poems, and even stories. How I’d love to spend most of my waking hours working on art, but life ain’t cheap, and these bills won’t pay themselves. I don’t really consider myself a writer, but I do love it. If you’ve made it this far, then thank you. Hopefully, my rambling makes sense, and perhaps you can relate to it. This journal on my website is a look inside my head, a voice into the void, a way to practice writing, part of my process of learning, and a call for connection.
+::
 
 ::sig
 ::
