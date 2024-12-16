@@ -1,5 +1,11 @@
 <template>
   <div class="flex items-center mt-3 space-x-4">
+    <a href="https://bento.me/subatmc"
+      class="inline-grid bg-gray-600 rounded-lg p-0.5 duration-200 hover:opacity-80 hover:-translate-y-0.5">
+      <div class="px-2 py-1 text-sm bg-black rounded-lg">
+        All Links (bento.me)
+      </div>
+    </a>
     <a href="mailto:heysubatmc@gmail.com"
       class="inline-grid bg-gray-600 rounded-lg p-0.5 duration-200 hover:opacity-80 hover:-translate-y-0.5">
       <div class="px-2 py-1 text-sm bg-black rounded-lg">
